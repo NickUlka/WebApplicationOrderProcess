@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplicationOrderProcess.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+<link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <ul>
+  <li><a href="default.aspx">Проверка сырья</a></li>
+  <li><a href="OrderProcess.aspx">Оформление заказа</a></li>
+  <li><a href="ShowOrders.aspx">Просмотр заказов</a></li>
+</ul>
+
+            <table>
+                <tr>
+                    <td class="auto-style2"></td>
+                    <td style="    
+    border-style: solid;
+    width: 400px;
+    height: 400px;
+    display: inline-table;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 2px #303732fc;
+    padding-left: 100px;
+    margin-left:200px;">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>  
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>
